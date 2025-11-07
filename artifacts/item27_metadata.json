@@ -6,19 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getText",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -26,7 +13,7 @@
 						"type": "string"
 					}
 				],
-				"name": "setText",
+				"name": "create",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/item26.sol": "item26"
+			"study/item27.sol": "item27"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/item26.sol": {
-			"keccak256": "0xecd6d3a1b9c89ff7f3bfcfcae82654fd091c93c2e56381661a9e8b3f2a36b2f3",
+		"study/item27.sol": {
+			"keccak256": "0x7115cdc65454ed2b7d2f680e62d1484543ccbd92b9c22622b514d61ecb42cd42",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b296c09efda65ba9e563356569fe535e6a226b86a4cf39bc973a0534dff49f13",
-				"dweb:/ipfs/QmaHm8ySc2asnjydbCCrjeMKY63gX8xVxHKcADTdYLvJTA"
+				"bzz-raw://c0a5a69c159437bb5352f0dbcb1e6369bae08416782ff89b2b5f7da7e2077b76",
+				"dweb:/ipfs/QmaUxfEiF4mPeqtxfnhTiFCJf1m94sn9iFQ1zWkfHxDPK1"
 			]
 		}
 	},
