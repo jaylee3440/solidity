@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "u",
+						"type": "uint256"
+					}
+				],
+				"name": "g1log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_logNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "printLog",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/item33.sol": "g1"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/item33.sol": {
+			"keccak256": "0x354ec1ea3d1556a9c40d050d6a4dc22d63cbe0562ef1b3adbdb72a1160279736",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5ed4d6145b7224a6b8f51f49a1d45b604a848a8ee532a3af8fea980b085c51c1",
+				"dweb:/ipfs/QmfLv61EznntvR5cY1YMYoPU584CLD6Rusr9KfkLpr6q9M"
+			]
+		}
+	},
+	"version": 1
+}
