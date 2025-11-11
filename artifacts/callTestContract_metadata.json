@@ -6,30 +6,38 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "addr",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "",
+						"internalType": "address",
+						"name": "_addr",
 						"type": "address"
 					}
 				],
+				"name": "testGetAll",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBanlance",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "testGetx",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,28 +49,22 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getThisBalance",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_x",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "receiveETH",
+				"name": "testSetx",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -78,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/item36.sol": "item36"
+			"study/item40.sol": "callTestContract"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -92,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/item36.sol": {
-			"keccak256": "0xeccd37cbf895bdb31e86dc37ce7e64e59a6d33b656b16b8e155975fe8279a830",
+		"study/item40.sol": {
+			"keccak256": "0x81df83844019f234ed8f67b42770739d7f4df190235b3559e25b5ea1076c49ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6e3c2fd1db0c5f7c26915b203a6f504b4df493db1f88c22fa11cd8c823857b69",
-				"dweb:/ipfs/QmQvFeVyFUk1TiCizmJRjfoYu9ZaxigvzuS5nBwghaHdJf"
+				"bzz-raw://c76cd007724722443b5dc6f9c0fb1c09ef5c361f57cc991b8595a9f61145f2c7",
+				"dweb:/ipfs/Qmd2B5c1ryb9vpmiXEHJxA6ab6aFGiVUhwwrEg8tscZHED"
 			]
 		}
 	},

@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "callEth",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendEth",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "构造方法必须有payable,方法上必须有payable关键字，转账的地址必须是payable transfer: revert 2300gas send: return bool 2300gas 较少使用 call: all gas, return bool and bytes transfer：简单、自动抛出异常，推荐用于安全、简单的 Ether 转账。 send：灵活，但需要手动检查错误。通常不推荐，除非你确实需要处理失败时的逻辑。 call：最灵活，适用于复杂的场景，但也是最危险的。要小心使用，确保做好错误处理和重入攻击防范。"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/item38.sol": "item38"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/item38.sol": {
+			"keccak256": "0x22d87cbbda2fa59305758c20a89238f8fc8d11c748d76267aefacf4a7f9cc83d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff6188bc93c26f72cc8b06614839a5884e210131e486b7a9a26db399b7fb9dc1",
+				"dweb:/ipfs/QmYkZ6Kswe9o3SAxYhnyMmYcAGPD7Hrzp7jgBY9miYTN1M"
+			]
+		}
+	},
+	"version": 1
+}
