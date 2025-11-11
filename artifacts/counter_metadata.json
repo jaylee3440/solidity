@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "iCounter",
+				"outputs": [
+					{
+						"internalType": "contract ICounter",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "调用其他合约时,可以定义接口的方式来调用,但是函数列表要和远程保持一致 初始化时要知道远程合约的地址",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/item41.sol": "counter"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/item41.sol": {
+			"keccak256": "0x0134c4a6f3bff68e70dba3b557cde4c752c72edfaa5490c6f71fc4e2a49da2bc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://023d15fc01faa15030454a7a779ebe75b77cd0e543c447483f4946545b35fe20",
+				"dweb:/ipfs/QmdWXnMXHeZATDKCENEPR1JCckWktPVdDsTZU4MgGGqvri"
+			]
+		}
+	},
+	"version": 1
+}

@@ -31,10 +31,3 @@ contract item36{
         revert("receive eth fail");
      }
 }
-
-contract sendEth{
-
-    function send(address payable   _addr,uint amount) external {
-        _addr.call{value: amount}("");
-    }
-}
