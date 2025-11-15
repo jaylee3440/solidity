@@ -4,7 +4,7 @@ pragma solidity ^0.8;
 contract MultiSigWallet{
 
     struct Transcation{
-        address to;
+        address payable to;
         uint256 value;
         bytes data;
         bool executed;       
@@ -43,7 +43,7 @@ contract MultiSigWallet{
     }
 
 
-    function submit(address _to, uint256 _value, bytes calldata _data)external onlyOwner{
+    function submit(address payable _to, uint256 _value, bytes calldata _data)external onlyOwner{
         require(_to != address(0), "has zero address");
         transcations.push(Transcation({
             to:_to,

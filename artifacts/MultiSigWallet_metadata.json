@@ -94,7 +94,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "_to",
 						"type": "address"
 					},
@@ -144,7 +144,7 @@
 				"name": "transcations",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "to",
 						"type": "address"
 					},
@@ -239,11 +239,11 @@
 	},
 	"sources": {
 		"study/week4/item50-Multi_sig_wallet.sol": {
-			"keccak256": "0x664d8a4a715bd750f28e1f99882a64bce544d5cdfbf42a68de3450410d5d3c45",
+			"keccak256": "0x8f2d7db429656b7371629aabadd835a0db2d94568f10c60263359e61a4ca6389",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://33d2dfeffb719f7941965dc52c94586823b9998d3ec0ad394c3ec25931f62ecb",
-				"dweb:/ipfs/QmcUDEeCNdPy5jVrNBiKYV95FCsC9pKBgwFRCfjyDKmLhQ"
+				"bzz-raw://3f3087b48a84810cf92e52d7c4a11e9d654f9a525c07b1b93e456ad98b774ee2",
+				"dweb:/ipfs/QmTCxUkAEssEwCau8wj98uWcCjswNeFGov8EJoyjjt5g3S"
 			]
 		}
 	},
