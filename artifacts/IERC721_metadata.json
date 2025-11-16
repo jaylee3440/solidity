@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/week4/item54-DucthAuction.sol": "IERC721"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/week4/item54-DucthAuction.sol": {
+			"keccak256": "0xbda469a4cb8198b669c7a16155cb49196f194ca7507936569b04192fc624821d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86eabf0b6acbb5676fd12f3e9ce41a376331a7dc03e91dd0da97fdde570fa3ae",
+				"dweb:/ipfs/QmbQgaYPKG4rV6AjTsr18QgCcWxkgJNNR1GyRuiokBqk4J"
+			]
+		}
+	},
+	"version": 1
+}

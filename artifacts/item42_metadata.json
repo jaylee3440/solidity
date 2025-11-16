@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"study/item42.sol": {
-			"keccak256": "0xf1a9b1d9e3142fc34cba7cecbb2ef9871f1a64f6d6e6c3207f2edcc341838b12",
+			"keccak256": "0xbe5405fe1b081b75459663b4d179524e341faf32ec2d662f3002500256625991",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1bbaa4398aa7ffb11f25a0deacb82e194c464ebdef6b70bd72739f5c283f89ac",
-				"dweb:/ipfs/QmSezaFRN8ERM2aG35ecLgrVdAAc7D8Ew3xmpuTQxpZ2b8"
+				"bzz-raw://f6b632054f0fd85fbe689093f3a6dcff4aa56304f9c016d1bb580925947fca38",
+				"dweb:/ipfs/QmesuNu7FGLqbfyEvp1JXNLyQS1ZVJKguACPZvic4Mnndg"
 			]
 		}
 	},

@@ -10,49 +10,28 @@
 				"inputs": [
 					{
 						"indexed": false,
-						"internalType": "string",
-						"name": "msg",
-						"type": "string"
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
 				"name": "Log",
 				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "addr",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"name": "update",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/item43.sol": "Caller"
+			"study/week4/item53-FunctionSelector.sol": "Receiver"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/item43.sol": {
-			"keccak256": "0x5374590caebbcc23a73ec92c7ead8b26bf2c2cc47e42f220619ad3cb226212cd",
+		"study/week4/item53-FunctionSelector.sol": {
+			"keccak256": "0x87a09be815b7f695fd760c7433283bb07d1b4b864f58bca5ee9d94bfad6cf4f2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56fae6afb45c5e63a872693e017b56bb36a85bb5d8757050a94f582d7f25de6a",
-				"dweb:/ipfs/QmRJ6ZjwWqye5XaJqEm6ZfPVgqsZoqXa3UHb4AF8Q2UXPj"
+				"bzz-raw://53262d1ec53b0c478b3aea405d8a07c6880782b7654eb80f2e4c7a5ed52baa0b",
+				"dweb:/ipfs/QmfW9MyxSKufFPR9Bo6s19guukyXuG33taNET5YgGo67XF"
 			]
 		}
 	},

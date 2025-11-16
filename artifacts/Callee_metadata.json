@@ -6,19 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "msg",
-						"type": "string"
-					}
-				],
-				"name": "Log",
-				"type": "event"
-			},
-			{
 				"inputs": [],
 				"name": "addr",
 				"outputs": [
@@ -47,13 +34,29 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
 						"name": "_num",
 						"type": "uint256"
 					}
 				],
-				"name": "update",
-				"outputs": [],
+				"name": "updateData",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -71,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/item43.sol": "Caller"
+			"study/item43.sol": "Callee"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
