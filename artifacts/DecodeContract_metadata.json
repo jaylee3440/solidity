@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "decodeData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DecodeContract.MyStruct",
+						"name": "_my",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DecodeContract.MyStruct",
+						"name": "_my",
+						"type": "tuple"
+					}
+				],
+				"name": "encodeData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/week4/item60-Decode.sol": "DecodeContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/week4/item60-Decode.sol": {
+			"keccak256": "0x51ba78b3490cab4018efb0f761aec918e08d8f33896fd3882e80de5123a9972c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ea3aadefb31c6a5ba47904cb1edfa02d0ca7830379b982b725850a3695a95cf",
+				"dweb:/ipfs/QmfQMnGNgW2DvXASWuRG6hgmQ1icC2XDcPvhpW5wwAifyw"
+			]
+		}
+	},
+	"version": 1
+}

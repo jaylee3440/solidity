@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sum1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sum2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"total()": {
+					"notice": "优化gas的方式： 1.calldata 代替 memory 2.在循环内修改状态变量的，先将状态变量加载到内存中，循环完之后在写回去 3.用++i来替代i+1 4.对频繁访问的数组元素，将元素加载到内存 [1,2,4,6,86,9,0,3]"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/week4/item61-GasGolf.sol": "GasGolf"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/week4/item61-GasGolf.sol": {
+			"keccak256": "0x8923ffe52850096de4a34c7e640279dfcb9fa27bbaae7b7f0c8954425964c5ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39bdb291cf90e9f3f9e2d8a14b1a8a3ae14e20d1d93bae161e55724800d8e459",
+				"dweb:/ipfs/QmS8dLnZ6YFP5aNN7BrqFzj7hiMRFsDj2KPR81jiKWewY1"
+			]
+		}
+	},
+	"version": 1
+}
